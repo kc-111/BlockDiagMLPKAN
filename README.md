@@ -78,6 +78,6 @@ W_2 = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-Lastly, do $\boldsymbol{z_3} = W_2 z_2$ to get the output. If you only care about the red parameters in $W_2$, you get the curves for each input $x$, and vice versa for interpretability. Choose $\sigma(x) = e^{-x^2}$, then you have a gaussian radial basis function interpolation with variable grid points. Note that the gaussian basis is similar to the B-spline basis depicted in the original KAN paper.
+Lastly, do $\boldsymbol{z_3} = W_2 z_2$ to get the output. If you only care about the red parameters in $W_2$, you get the curves for each input $x$, and vice versa for interpretability. Choose $\sigma(x) = e^{-x^2}$, then you have a gaussian radial basis function interpolation with trainable grid points. Note that the gaussian basis is similar to the B-spline basis depicted in the original KAN paper.
 
 
