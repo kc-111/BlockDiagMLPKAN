@@ -42,6 +42,7 @@ y
 \end{bmatrix}
 $$
 
+The first linear layer outputis then
 $$
 \boldsymbol{z_1} = W_1v 
 =
