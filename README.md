@@ -43,10 +43,10 @@ y
 $$
 
 The first linear layer outputis then
+
 $$
 \boldsymbol{z_1} = W_1v 
 =
-
 \begin{bmatrix}
 a_1 x\\
 a_2 x\\
