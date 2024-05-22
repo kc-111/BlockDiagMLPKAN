@@ -42,11 +42,10 @@ y
 \end{bmatrix}
 $$
 
-The first linear layer outputis then
+The first linear layer output is then
 
 $$
-\boldsymbol{z_1} = W_1v 
-=
+\boldsymbol{z_1} = W_1v =
 \begin{bmatrix}
 a_1 x\\
 a_2 x\\
