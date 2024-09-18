@@ -6,10 +6,6 @@ Examples are based on [FastKAN](https://github.com/ZiyaoLi/fast-kan) : Very Fast
 
 I used the Gaussian as the activation function, which I think reduces to a Gaussian Radial Basis Function KAN with variable grid points. See [ChebyKAN](https://github.com/SynodicMonth/ChebyKAN) : Kolmogorov-Arnold Networks (KAN) using Chebyshev polynomials instead of B-splines. ｜ ![Github stars](https://img.shields.io/github/stars/SynodicMonth/ChebyKAN.svg)
 
-See discussions:
-- [[D] Kolmogorov-Arnold Network is just an MLP](https://www.reddit.com/r/MachineLearning/comments/1clcu5i/d_kolmogorovarnold_network_is_just_an_mlp/)
-- [[D] Kolmogorov-Arnold Network is just an MLP (Twitter) ](https://x.com/bozavlado/status/1787376558484709691)
-
 Example for one layer, 2 inputs, 3 basis curves, and 3 outputs. For each output, you need to stack the block diagonal matrices.
 
 $$ 
